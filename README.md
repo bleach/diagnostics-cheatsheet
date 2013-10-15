@@ -9,4 +9,4 @@ To generate a printable page I do this:
     pandoc -f markdown -o cheatsheet.html cheatsheet.md     # any markdown processor should work
     xdg-open cheatsheet.html || open cheatsheet.html        # should work on ubuntu & Mac OS X
 
-I then print it out at two sides per page, which is currently a single side of A4 paper.
+I then print it out at two pages per side, which is currently a single side of A4 paper.

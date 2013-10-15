@@ -17,8 +17,7 @@ Have manpages-dev installed (system and library calls)
     apropos <string>                  # list pages whose name or description contains <string>
     ls /usr/share/doc/<package>/...   # find example config, ubuntu-specific notes
 
-`man` usually uses less to display pages. Some handy shortcuts:
-
+Man will use your default 'pager' to display pages, which is usually `less`.
 
 ## How busy is the system? ##
 

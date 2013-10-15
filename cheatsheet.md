@@ -41,7 +41,7 @@ Have manpages-dev installed (system and library calls)
     ltrace <command>     # trace library calls made by <command>
     lsof -p <pid>        # file descriptors <pid> has open
 
-Eevrything is a file, so you can look in /proc
+Everything is a file, so you can look in /proc
 
     ls -l /proc/<pid>/fd     # list file descriptors (and e.g. read a deleted file that it has open)
     ls -l /proc/<pid>/exe    # see what executable it is running
